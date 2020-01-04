@@ -1,6 +1,6 @@
 <html>
   <head>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
     <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
@@ -27,7 +27,8 @@
 
         var options = {
           title: 'População das cidades',
-          legend: { position: 'right' }
+          legend: { position: 'top' },
+          height:400
         };
 
         var chart = new google.visualization.LineChart(document.getElementById('graficoCurvado'));
@@ -38,7 +39,7 @@
   </head>
   <body>
   <div class="container">
-    <div id="graficoCurvado" style="width: 900px; height: 500px"></div>
+    <div id="graficoCurvado" ></div>
   </div>
   </body>
 </html>
