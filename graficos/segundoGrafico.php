@@ -45,14 +45,14 @@
         legend: { position: "top" },
         colors: ['black'],
       };
-      var chart = new google.visualization.ColumnChart(document.getElementById("grafico"));
+      var chart = new google.visualization.ColumnChart(document.getElementById("graficoBarras"));
       chart.draw(view, options);
   }
   </script>
 </head>
 
 <body>
-    <div id="grafico" ></div>
+    <div id="graficoBarras" ></div>
 </body>
 
 </html>

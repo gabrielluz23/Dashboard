@@ -13,18 +13,24 @@
 </head>
 
 <body>
+
   <div class="container">
     <div class="row">
-      <div class="col-md-4">
 
-      </div>
       <div class="col-md-4">
-        <?php include 'graficos/primeiroGrafico.php' ?>
+        <?php include 'graficos/graficoPizza.php' ?>
       </div>
 
       <div class="col-md-4">
         <?php include 'graficos/segundoGrafico.php' ?>
       </div>
+
+    </div>
+  </div>
+  
+  <div class="container">
+    <div class="col-md-8" style="margin-left: -40px">
+      <?php include 'graficos/primeiroGrafico.php' ?>
     </div>
   </div>
   <!-- Optional JavaScript -->
