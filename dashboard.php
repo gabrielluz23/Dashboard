@@ -15,7 +15,6 @@
 
 
   <!-- Custom styles for this template -->
-  <link href="./Dashboard Template · Bootstrap_files/dashboard.css" rel="stylesheet">
 </head>
 
 <body>
@@ -35,31 +34,49 @@
           <ul class="nav flex-column">
             <li class="nav-item">
               <a class="nav-link active" href="?pagina=">
-
-                Pagina Inicial 
+                Pagina Inicial
               </a>
             </li>
+            <h5 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted border-top border-bottom">
+              Verificar
+            </h5>
             <li class="nav-item">
               <a class="nav-link" href="?pagina=pedidos">
 
-                Pedidos
+                Clientes
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="?pagina=produtos">
 
-                Produtos
+                Vendas
               </a>
             </li>
+
+
+
+
+            <h5 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted border-top border-bottom">
+              Cadastros
+            </h5>
+
+
             <li class="nav-item">
-              <a class="nav-link" href="?pagina=clientes">
-                Clientes
+
+              <a class="nav-link" href="?pagina=cadastrovendas">
+                Cadastro de Vendas
               </a>
+
             </li>
 
+            <li class="nav-item">
+
+              <a class="nav-link" href="?pagina=cadastroclientes">
+                Cadastro de Clientes
+              </a>
+
+            </li>
           </ul>
-
-
         </div>
       </nav>
 
@@ -67,12 +84,7 @@
 
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
           <h1 class="h2">Dashboard</h1>
-          <div class="btn-toolbar mb-2 mb-md-0">
-            <div class="btn-group mr-2">
 
-            </div>
-
-          </div>
 
         </div>
         <?php
@@ -88,9 +100,13 @@
               echo '<h2>Produtos</h2>';
               break;
 
-            case 'clientes';
-              echo '<h2>Cliente</h2>';
+            case 'cadastrovendas';
+              include 'telas/cadastroVenda.php';
               break;
+              
+            case 'cadastroclientes';
+            include 'telas/cadastroCliente.php';
+            break;
             default;
               echo '<h2>Inicial</h2>';
               include 'grafico.php';
