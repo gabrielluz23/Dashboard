@@ -12,7 +12,7 @@
 </head>
 
 <body>
-	<div class="container">
+	<div class="container-fluid">
 		<form  action="querys/cadastroVenda.php" method="post">
 			<h2>Cadastro de Vendas</h2>
 			<div class="button">
