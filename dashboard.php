@@ -108,8 +108,7 @@
             include 'telas/cadastroCliente.php';
             break;
             default;
-              echo '<h2>Inicial</h2>';
-              include 'grafico.php';
+              include 'telas/painel.php';
               break;
           }
         }
