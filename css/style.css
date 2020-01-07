@@ -83,14 +83,13 @@ html,body {
         padding-top: 20px;
         text-align: center;
     }
-    #titulo{
-        padding-top: 75px;
-       margin-left: 15%;
-    }
     .classImage {
         margin-right: 10px;
     }
     #dashBoard {
         text-align: center;
+    }
+    .painel {
+        margin-top: 100px;
     }
 }

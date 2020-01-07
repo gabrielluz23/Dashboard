@@ -77,7 +77,7 @@
         </div>
       </nav>
       <!-- dashboard Mobile  -->
-      <div class="d-block d-sm-none ">
+      <div class="d-block d-sm-none container">
         <nav class="navbar fixed-top navbar-dark flex-md-nowrap p-0  colorMobile">
           <div class="styleDrop">
           <img src="imagens\desklogo.png" class="classImage" alt=""> 
@@ -114,11 +114,7 @@
       <!-- dashboard Mobile  -->
       <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
 
-        <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <h1 id="titulo">Dashboard</h1>
 
-
-        </div>
         <?php
 
         if (isset($_GET['pagina'])) {

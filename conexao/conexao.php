@@ -1,6 +1,6 @@
 <?php 
  $servername = "localhost";
- $database = "dashboard1";
- $username = "root";
- $password = "";
+ $database = "id12161227_dashboard1";
+ $username = "id12161227_todynho";
+ $password = "65665011";
  $conexao = mysqli_connect($servername,$username,$password,$database);
