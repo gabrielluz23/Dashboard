@@ -15,11 +15,6 @@
 	<div class="container-fluid">
 		<form  action="querys/cadastroCliente.php" method="post">
 			<h2>Cadastro de clientes</h2>
-			<div class="button">
-			<a href="#" role="button" class="btn btn-primary btn-sm"> Relatorio </a>
-			<a href="#" role="button" class="btn btn-danger btn-sm"> Voltar </a>
-
-			</div>
 			<div class="form-group">
 				<label>Mes</label>
 

@@ -1,9 +1,9 @@
-<html>
+<!DOCTYPE html>
 
 
 
 <head>
-
+    <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
         google.charts.load('current', {
@@ -68,8 +68,8 @@
         <div class="row">
             <div class="col-md-8" >
 
-                <h2 class="graficoPizza"> Graficos de clientes </h2>
-                <div id="curve_chart"style="margin-left: -80px"></div>
+                <h2 >Graficos de clientes</h2>
+                <div id="curve_chart" class="graficoCliente"></div>
 
             </div>
             <div class="col-md-4">
