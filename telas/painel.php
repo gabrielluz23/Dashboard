@@ -13,10 +13,10 @@
         <div class="row">
 
             <div class="col-md-4">
-                <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                <div class="card text-white bg-primary mb-3 painel" style="max-width: 18rem;">
                     <div class="card-header">Total de clientes</div>
                     <div class="card-body ">
-                        <h5 class="card-title painel">
+                        <h5 class="card-title painelh5">
                             <?php 
                              include 'querys/painel.php';
                              echo $quantidadeCliente;
@@ -29,10 +29,10 @@
             </div>
 
             <div class="col-md-4">
-                <div class="card  text-white bg-success mb-3" style="max-width: 18rem;">
+                <div class="card  text-white bg-success mb-3 painel" style="max-width: 18rem;">
                     <div class="card-header">Faturamento Anual</div>
                     <div class="card-body ">
-                        <h5 class="card-title painel"> 
+                        <h5 class="card-title painelh5"> 
                             <?php 
                              include 'querys/painel.php';
                              echo  "R$ ".$totalVenda;
@@ -45,10 +45,10 @@
             </div>
 
             <div class="col-md-4">
-                <div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+                <div class="card text-white bg-danger mb-3 painel" style="max-width: 18rem;">
                     <div class="card-header">Total de vendas</div>
                     <div class="card-body ">
-                        <h5 class="card-title painel">
+                        <h5 class="card-title painelh5">
                             <?php 
                              include 'querys/painel.php';
                              echo  $quantidadeVenda;

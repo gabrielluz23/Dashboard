@@ -3,7 +3,6 @@
 
 
 <head>
-    <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
         google.charts.load('current', {
@@ -75,7 +74,7 @@
             <div class="col-md-4">
 
                 <h2> Graficos de Vendas </h2>
-                <div id="piechart" style="width: 350px"></div>
+                <div id="piechart" class="graficoPizza"></div>
                 
             </div>
         </div>

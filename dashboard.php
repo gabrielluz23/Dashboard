@@ -14,76 +14,94 @@
   <title>DashBoard</title>
 
 
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link  href="css/style.css" rel="stylesheet">
   <!-- Custom styles for this template -->
 </head>
 
 <body>
   <div class="d-none d-sm-block">
-    <nav class="navbar navbar-dark  bg-dark flex-md-nowrap p-0">
-      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="https://getbootstrap.com/docs/4.4/examples/dashboard/#">DashBoard</a>
+    <nav class="navbar navbar-expand-lg navBarBackground">
+      <a class="navbar-brand navoptions" href="?pagina="><img src="imagens\desklogo.png" class="classImage" alt=""> Gabriel Yago</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link navoptions" href="?pagina=" >Graficos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navoptions" href="?pagina=cadastrovendas">Cadastro de Vendas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navoptions" href="?pagina=cadastroclientes">Cadastro de Clientes</a>
+          </li>
+          
+        </ul>
+      </div>
     </nav>
   </div>
 
 
 
 
-  <div class="container-fluid">
-    <div class="row">
-      <nav class="col-md-2 d-none d-md-block bg-light sidebar ">
+  <div class="container-fluid" id="dashBoard">
+    <div class="row" id="dashBoard">
+      <nav class="col-md-2 d-none d-md-block bg-light sidebar dash">
         <div class="sidebar-sticky">
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link active" href="?pagina=">
-                Pagina Inicial
+              <a class="nav-link active navoptionsblack" href="?pagina=">
+              <img src="imagens\chart-bar-solid.svg"  class="icon">  Graficos
               </a>
             </li>
 
             <li class="nav-item">
 
-              <a class="nav-link" href="?pagina=cadastrovendas">
-                Cadastro de Vendas
+              <a class="nav-link navoptionsblack" href="?pagina=cadastrovendas">
+              <img src="imagens\dollar-sign-solid.svg" class="icon"> Cadastro de Vendas
               </a>
 
             </li>
 
             <li class="nav-item">
 
-              <a class="nav-link" href="?pagina=cadastroclientes">
-                Cadastro de Clientes
+              <a class="nav-link navoptionsblack" href="?pagina=cadastroclientes">
+              <img src="imagens\users-solid.svg"  class="icon">   Cadastro de Clientes
               </a>
 
             </li>
           </ul>
         </div>
       </nav>
-            <!-- dashboard Mobile  -->
+      <!-- dashboard Mobile  -->
       <div class="d-block d-sm-none ">
-        <nav class="navbar fixed-top navbar-dark bg-dark flex-md-nowrap p-0 ">
+        <nav class="navbar fixed-top navbar-dark flex-md-nowrap p-0  colorMobile">
           <div class="styleDrop">
-            <a class="btn btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-target="#conteudoNavbarSuportado"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="btn dropdown dropdown-toggle" role="button" id="dropdownMenuLink" data-target="#conteudoNavbarSuportado" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span class="navbar-toggler-icon"></span> Dashboard
             </a>
 
             <div class="dropdown-menu drop" aria-labelledby="dropdownMenuLink" id="conteudoNavbarSuportado">
 
-              <a class="nav-link active" href="?pagina=">
-                Pagina Inicial
+              <a class="nav-link active drop" href="?pagina=">
+              <img src="imagens\chart-bar-solid.svg"  class="icon">  Graficos
               </a>
 
               <li class="nav-item">
 
-                <a class="nav-link" href="?pagina=cadastroclientes">
-                  Cadastro de Clientes
+                <a class="nav-link drop" href="?pagina=cadastroclientes">
+                <img src="imagens\users-solid.svg" alt="user" class="icon">  
+                 Cadastro de Clientes
                 </a>
 
               </li>
               <li class="nav-item">
 
-                <a class="nav-link" href="?pagina=cadastrovendas">
-                  Cadastro de Vendas
+                <a class="nav-link drop" href="?pagina=cadastrovendas">
+                <img src="imagens\dollar-sign-solid.svg" class="icon"> Cadastro de Vendas
                 </a>
 
               </li>
@@ -92,11 +110,11 @@
           </div>
         </nav>
       </div>
-
+      <!-- dashboard Mobile  -->
       <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
 
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <h1 class="h2">Dashboard</h1>
+          <h1 id="titulo">Dashboard</h1>
 
 
         </div>
