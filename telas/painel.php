@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid painelTotal">
         <div class="row">
 
             <div class="col-md-4">
