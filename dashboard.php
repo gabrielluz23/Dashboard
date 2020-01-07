@@ -80,6 +80,7 @@
       <div class="d-block d-sm-none ">
         <nav class="navbar fixed-top navbar-dark flex-md-nowrap p-0  colorMobile">
           <div class="styleDrop">
+          <img src="imagens\desklogo.png" class="classImage" alt=""> 
             <a class="btn dropdown dropdown-toggle" role="button" id="dropdownMenuLink" data-target="#conteudoNavbarSuportado" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               <span class="navbar-toggler-icon"></span> Dashboard
             </a>
