@@ -61,7 +61,7 @@ html,body {
         text-align: center!important;
     }
     .graficoCliente{
-        
+        margin-left: 10px;
     }
     .colorMobile {
         background-color: #250352 ;
@@ -92,6 +92,5 @@ html,body {
     }
     #dashBoard {
         text-align: center;
-        margin-left: 5px;
     }
 }
